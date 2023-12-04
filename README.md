@@ -1,25 +1,21 @@
-# S&P500 Equal Weight Shares Found 📈
+# S&P 500 Equal Weight Shares Fund Project 📈
 
-## What?
+## Overview
 
-**To understand the context, what is Algorithmic trading?** 
-<br>
-Algorithmic trading, also known as algo trading or automated trading, refers to the use of computer algorithms to make investment decisions and execute trades. 
-<br>
-<br>
-This is an algorithmic trading project guided by [Nick McCullum](https://www.nickmccullum.com/), and the source code is provided by him in [this course](https://youtu.be/xfzGZB4HhEE). 
+This project focuses on algorithmic trading, specifically through the implementation of an algorithm designed to assist in creating an equal-weight version of the S&P 500 index fund. The source code for this algorithm was guided by [Nick McCullum](https://www.nickmccullum.com/) and is part of an educational course.
 
-**Here's how it works:**
-<br>
-The script provided will accept the value of your portfolio and tell you how many shares of each S&P 500 constituent you should purchase to achieve an equal-weight version of the index fund.
+### Context: Algorithmic Trading
+- **Definition:** Algorithmic trading involves using computer algorithms for making investment decisions and executing trades automatically.
+- **Application:** It leverages the speed and computational resources of computers to execute trades based on pre-set criteria.
 
-## When? 
-2023 Apr
+### Project Mechanics
+- **Functionality:** The script calculates the number of shares to purchase for each constituent of the S&P 500, based on the total value of an individual's portfolio. This aids in creating a portfolio that mirrors an equal-weight version of the index fund.
+- **Technology Used:** The script interacts with financial data APIs and is executed in a Python environment.
 
-## What I learned?
-* To use a IEX API for financial data
-* How to setup python environment in the terminal and then added the need python libraries which are:
-  * NumPy
-  * pandas
-  * xlsxwriter
-* Jupiter Notebook
+## Implementation Date
+- **Completion:** April 2023
+
+## Learning Outcomes
+- **Financial Data API:** Gained experience in using the IEX API for accessing financial data.
+- **Python Environment Setup:** Learned how to set up a Python development environment in the terminal and integrate necessary libraries such as NumPy, pandas, and xlsxwriter.
+- **Jupyter Notebook:** Utilized Jupyter Notebook for writing and testing the script, enhancing skills in interactive coding and data analysis.
